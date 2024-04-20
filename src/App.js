@@ -10,6 +10,7 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
 import Portfolio from './components/projects/Portfolio';
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
       </main>
       <Footer />
       <ScrollUp />
+      <Analytics />
     </>
   );
 }
